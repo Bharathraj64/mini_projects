@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>\login page</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Enter the details:-</legend>
+        <table>
+          <tr>
+            <td><label for="un">username</label></td>
+            <td>
+              <input type="text" id="un" placeholder="username" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="pwd">password</label></td>
+            <td>
+              <input
+                type="password"
+                name="password"
+                id="pwd"
+                placeholder="password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="mail">email</label></td>
+            <td>
+              <input
+                type="email"
+                id="mail"
+                placeholder="enter mail id"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="date">DOB</label></td>
+            <td><input type="date" id="date" name="date" required /></td>
+          </tr>
+          <tr>
+            <td><label for="number">phone number</label></td>
+            <td><input type="tel" name="number" id="num" required /></td>
+          </tr>
+          <tr>
+            <td><label for="add">address</label></td>
+            <td><textarea name="address" id="add"></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="">sports</label></td>
+            <td>
+              <select name="" id="">
+                <option value="">cricker</option>
+                <option value="">kabbadi</option>
+                <option value="">kho kho</option>
+                <option value="">v ball</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="image">upload the image</label></td>
+            <td><input type="image" id="img" required src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJEJEFKIrHmXD5YVccLpWctuYKym8E9MKOBA&s" height="50" width="50"/></td>
+          </tr>
+          <tr>
+            <td><label for="file">upload file</label></td>
+            <td><input type="file" id="file" required /></td>
+          </tr>
+          <tr>
+            <td><label for="lang">language</label></td>
+        <td>
+            <input type="checkbox" id="lang" name="language" value="html" required>HTML
+            <input type="checkbox" id="lang" name="language" value="css" required>CSS
+            <input type="checkbox" id="lang" name="language" value="js" required>JS
+        </td>
+              <tr>
+                <td><label for="">gender</label></td>
+                <td>
+                    <input type="radio" name="gender" value="male" required>Male
+                <input type="radio" name="gender" value="female" required>Female
+                <input type="radio" name="gender" value="other" required>Other
+            </td>
+              </tr>
+              <tr>
+                <td label="">slect the range</td>
+                <td><input type="range"></td>
+              </tr>
+              <tr>
+                <td><label for="fruit">favorite fruit</label></td>
+                <td>
+                <input type="text" list="fruit">
+                <datalist id="fruit">
+                    <option value="apple">apple</option>
+                    <option value="banana">banana</option>
+                    <option value="orange">orange</option>
+                </datalist></td>
+              </tr>
+              </select>
+            </td>
+          </tr>
+          <te>
+            <td><button type="subject">login</button></td>
+            <td><input type="reset" value="cancel" /></td>
+          </te>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
