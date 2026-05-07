@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Wishes</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #74ebd5, #9face6);
+        font-family: Arial, sans-serif;
+      }
+
+      .card {
+        background: white;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        width: 350px;
+        animation: float 3s ease-in-out infinite;
+      }
+
+      h1 {
+        color: #333;
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: #555;
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+
+      button {
+        margin-top: 20px;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 30px;
+        background: #6c63ff;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      button:hover {
+        background: #5145cd;
+        transform: scale(1.05);
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>✨ Best Wishes ✨</h1>
+      <p>
+        Wishing you happiness, success, and endless positivity in your life. May
+        all your dreams come true!
+      </p>
+
+      <button onclick="showMessage()">Click Me</button>
+    </div>
+
+    <script>
+      function showMessage() {
+        alert("Have a wonderful day filled with joy and success! 🌸");
+      }
+    </script>
+  </body>
+</html>
